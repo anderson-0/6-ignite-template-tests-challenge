@@ -8,7 +8,7 @@ import {
 } from 'typeorm';
 import { v4 as uuid } from 'uuid';
 
-import { User } from '@modules/users/entities/User';
+import { User } from '../../users/entities/User';
 
 export enum OperationType {
   DEPOSIT = 'deposit',

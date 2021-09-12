@@ -5,13 +5,6 @@
     "rootDir": "./",
     "outDir": "./dist",
     "baseUrl": "./src",
-    "paths": {
-      "@modules/*": ["modules/*"],
-      "@config/*": ["config/*"],
-      "@shared/*": ["shared/*"],
-      "@errors/*": ["errors/*"],
-      "@utils/*": ["utils/*"]
-    },
     "resolveJsonModule": true,
     "strict": true,
     "strictPropertyInitialization": false,
